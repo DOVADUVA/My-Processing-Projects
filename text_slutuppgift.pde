@@ -16,7 +16,7 @@ void draw()
   stroke(128, 0, 0);
   fill(255, 0, 0);
   ellipse(x, y, 50, 50);
-  fill(256, 256, 256);
+  fill(255, 255, 255);
   text(studsar, 10, 40);
   fill(256, 256, 256);
   text("Studsar", 10, 20);
@@ -33,3 +33,4 @@ void draw()
     studsar = studsar + 1;
   }
 }
+
